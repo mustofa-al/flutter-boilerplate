@@ -1,8 +1,13 @@
+import 'package:boilerplate/extras/Dependencies.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/intl_browser.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart' as DotEnv;
 
-void main() {
+void main()  async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await DotEnv.load(fileName: ".env");
+  Dependencies.init();
   Intl.defaultLocale = 'id_ID';
   findSystemLocale().then((_) => runApp(MyApp()));
 }
