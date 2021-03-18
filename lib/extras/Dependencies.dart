@@ -1,5 +1,5 @@
-import 'package:boilerplate/api/RestApi.dart';
-import 'package:boilerplate/local/DataCache.dart';
+import 'package:boilerplate/api/rest_api.dart';
+import 'package:boilerplate/local/data_cache.dart';
 import 'package:injector/injector.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

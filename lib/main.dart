@@ -1,4 +1,4 @@
-import 'package:boilerplate/extras/Dependencies.dart';
+import 'package:boilerplate/extras/dependencies.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/intl_browser.dart';

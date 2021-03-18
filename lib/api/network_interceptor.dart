@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:boilerplate/api/NetworkInterceptorHelper.dart';
-import 'package:boilerplate/extras/AppConstants.dart';
-import 'package:boilerplate/local/DataCache.dart';
+import 'package:boilerplate/api/network_interceptor_helper.dart';
+import 'package:boilerplate/extras/app_constants.dart';
+import 'package:boilerplate/local/data_cache.dart';
 import 'package:dio/dio.dart';
 
 class NetworkInterceptor extends Interceptor {
